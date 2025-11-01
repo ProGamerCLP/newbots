@@ -1,0 +1,50 @@
+panel:
+  title: "Sistema de Tickets | Experience RP"
+  description: |
+    Centro de soporte 🎟️
+    Bienvenido al centro de soporte de Experience RP
+
+    A continuación seleccione la categoría que se adecue con tus necesidades. Recuerda que hay ciertas normas de ticket.
+
+    📁 Normas de tickets
+
+    😊 Respeto
+    • Es importante no faltar al respeto a nadie del equipo de moderación/soporte. En caso de hacerlo será sancionado con un bloqueo temporal del sistema de tickets.
+
+    ‎ ‎• También es importante no faltar al respeto a los usuarios que reportas (en caso de que estés reportando a un usuario) por mucho que hayan echo trampas (en un juego) o hayan molestado
+
+    😴 Paciencia
+    ‎ ‎ • Es importante tener paciencia hasta que un staff conteste tu ticket. Evita enviar muchos mensajes para que se atendido antes de tiempo.
+
+    ‎ ‎ • Ten en cuenta que hay más usuarios a los que ayudar no solo tú.
+
+    ⚠️ Tickets innecesarios
+    •Llevar el centro de soporte como chiste y hacer tickets conlleva una sanción de bloqueo temporal en los tickets.
+
+    📥 Intentos de estafa
+    •No se permite intento de estafa a los diferentes miembros del staff, ya sea de conseguir cosas completamente gratis, duplicar objetos mediante rollbacks (en juego),
+    Etc..
+
+    •También está totalmente prohibido mandar evidencias falsas. Si se realiza está acción conllevara un aislamiento de 15 minutos.
+
+    ¿Qué puedes hacer en el centro de soporte?
+
+  thumbnail: ""   # opcional: url de imagen pequeña
+  image: ""       # opcional: url de imagen grande
+  color: 0x5865f2 # color del borde del embed
+  footer: "Recuerda adjuntar pruebas IC"
+
+options:  # cada opción = un tipo de ticket
+  - label: "Denuncias Públicas"
+    value: "denuncia"
+    emoji: "⚖️"
+    category: "DENUNCIAS"
+    channel_fmt: "denuncia-{counter}"
+    questions: 15          # 0 = abre directo, sin modal
+
+  - label: "Soporte técnico"
+    value: "soporte"
+    emoji: "🔧"
+    category: "SOPORTE"
+    channel_fmt: "soporte-{counter}"
+    questions: 0
