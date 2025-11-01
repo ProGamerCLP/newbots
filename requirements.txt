@@ -1,0 +1,5 @@
+discord.py[speed]==2.3.2
+python-dotenv==1.0.0
+pyyaml
+aiohttp
+flask==2.3.3
